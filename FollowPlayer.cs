@@ -19,4 +19,5 @@ public class FollowPlayer : MonoBehaviour
     }
     // comment for git testing
     // another test comment
+    // merge conflict test test test
 }
