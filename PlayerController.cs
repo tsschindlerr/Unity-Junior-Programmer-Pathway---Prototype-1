@@ -2,22 +2,15 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-
-    private float speed = 20.0f;
-    private float turnSpeed = 45.0f;
-    private float horizontalInput;
-    private float forwardInput;
+    [SerializeField] private float speed = 20.0f;
+    [SerializeField] private float turnSpeed = 45.0f;
+    [SerializeField] private float horizontalInput;
+    [SerializeField] private float forwardInput;
     public string inputID;
     public Camera mainCamera;
     public Camera hoodCamera;
     public KeyCode switchKey;
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    
     void Update()
     {
         // Move the vehicle forward
